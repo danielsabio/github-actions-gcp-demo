@@ -26,7 +26,3 @@ jobs:
           gcloud auth configure-docker us-central1-docker.pkg.dev
           docker build -t configure-docker us-central1-docker.pkg.dev/$GOOGLE_PROJECT/demo/nginx:latest .
           docker push configure-docker us-central1-docker.pkg.dev/$GOOGLE_PROJECT/demo/nginx:latest
-				
-
-
-
